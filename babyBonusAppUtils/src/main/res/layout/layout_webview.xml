@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <WebView
+        android:id="@+id/wvMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

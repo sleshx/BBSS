@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+   <solid android:color="#ffffff" />
+   <stroke android:width="1dip" android:color="#4fa5d5"/>
+</shape><!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/drawable/dummy.xml -->

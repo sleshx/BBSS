@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llIconBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_horizontal"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dimen_10"
+        android:weightSum="5" >
+
+        <ImageView
+            android:id="@+id/ivMsfLogo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:gravity="left"
+            android:paddingTop="@dimen/dimen_07"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/ivBbsLogo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:paddingTop="@dimen/dimen_07"
+            android:src="@drawable/ic_bbs_logo" />
+
+        <ImageView
+            android:id="@+id/ivLogout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:gravity="right"
+            android:paddingTop="@dimen/dimen_07"
+            android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_light" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivColorBar"
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_colorbar" />
+
+</RelativeLayout><!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/layout/action_bar_main.xml -->

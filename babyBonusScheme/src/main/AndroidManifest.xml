@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sg.gov.msf.bbss" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <!-- Can't debug without this.. got suddenly on 4th May ..wonder why .. -->
+    <!-- got Permission Denial: get/set setting for user asks to run as user -2 but is calling from user 0-->
+
+    <application
+        android:name=".BbssApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Main Page -->
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="bbss"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home  -->
+
+        <activity
+            android:name=".view.home.familyview.FamilyViewMainActivity"
+            android:label="@string/title_activity_family_view"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.home.familyview.FamilyViewFragmentContainerActivity"
+            android:label="@string/title_activity_family_view"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".view.home.SiblingCheckActivity"
+            android:label="@string/title_activity_sibling_check"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".view.home.UpdateProfileActivity"
+            android:label="@string/title_activity_update_profile"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".view.home.AiLocatorActivity"
+            android:label="@string/title_activity_ai_locator"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".view.home.EligibilityCheckActivity"
+            android:label="@string/title_activity_eligibility_check"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.home.FaqActivity"
+            android:label="@string/title_activity_home_faq"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.home.FeedbackActivity"
+            android:label="@string/title_activity_home_feedback"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.home.AboutActivity"
+            android:label="@string/title_activity_home_about"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.home.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+
+        <!-- Enrolment -->
+
+        <activity
+            android:name=".view.enrolment.main.EnrolmentMainActivity"
+            android:icon="@drawable/ic_back"
+            android:label="@string/title_activity_enrolment_main"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.enrolment.main.EnrolmentFragmentContainerActivity"
+            android:label="@string/title_activity_enrolment_main"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.enrolment.sub.EnrolmentChildActivity"
+            android:label="@string/title_activity_enrolment_main"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.enrolment.sub.MotherDeclarationFragmentContainerActivity"
+            android:label="@string/title_activity_enrolment_main"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.enrolment.EnrolmentStatusActivity"
+            android:label="@string/title_activity_enrolment_status"
+            android:screenOrientation="portrait" />
+
+        <!-- Services -->
+
+        <activity
+            android:name=".view.eservice.ServicesHomeActivity"
+            android:label="@string/title_activity_services"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.nah.ChangeNahFragmentContainerActivity"
+            android:label="@string/title_activity_services_change_nah"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.nan.ChangeNanFragmentContainerActivity"
+            android:label="@string/title_activity_services_change_nan"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.cdat.ChangeCdatFragmentContainerActivity"
+            android:label="@string/title_activity_services_change_cdat"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.cdab.ChangeCdabFragmentContainerActivity"
+            android:label="@string/title_activity_services_change_cdab"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.psea.TransferPseaFragmentContainerActivity"
+            android:label="@string/title_activity_services_cda_psea"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.bo.ChangeBoFragmentContainerActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/title_activity_services_change_bo"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.cdabtc.AcceptCdabTcFragmentContainerActivity"
+            android:label="@string/title_activity_services_cdab_tc"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.opencda.OpenCdaFragmentContainerActivity"
+            android:label="@string/title_activity_services_open_cda"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.ServiceAcknowledgementActivity"
+            android:label="@string/title_activity_services_status"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.eservice.ServiceStatusActivity"
+            android:label="@string/title_activity_services_status"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

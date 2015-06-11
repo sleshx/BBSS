@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title Bar -->
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Screen Instructions -->
+
+            <include
+                android:id="@+id/screen_instructions"
+                layout="@layout/screen_instructions_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Section Header -->
+
+            <include
+                android:id="@+id/enrolment_type_selection"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_instructions" />
+
+            <!-- Select Type Selection -->
+
+            <include
+                android:id="@+id/enrolment_person_type_selection"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enrolment_type_selection" />
+
+            <!-- Buttons -->
+
+            <include
+                android:id="@+id/screen_3buttons"
+                layout="@layout/clickable_3buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/enrolment_person_type_selection" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

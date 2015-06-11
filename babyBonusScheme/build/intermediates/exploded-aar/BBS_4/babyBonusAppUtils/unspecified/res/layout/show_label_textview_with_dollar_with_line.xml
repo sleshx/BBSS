@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/dimen_10"
+            android:layout_weight="1"
+            android:text="@string/text_app_dummy_field_name"
+            android:textSize="@dimen/app_general_font_size" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/dimen_10">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvDollar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_app_dummy_hyphen"
+                    android:textSize="@dimen/app_general_font_size"
+                    android:layout_marginRight="@dimen/dimen_10"/>
+
+                <TextView
+                    android:id="@+id/tvValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_app_dummy_hyphen"
+                    android:textSize="@dimen/app_general_font_size"
+                    android:gravity="right"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/theme_gray_dark" />
+</LinearLayout><!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/layout/show_label_textview_with_dollar_with_line.xml -->

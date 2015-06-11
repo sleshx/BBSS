@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="button_light_font">#FBFBFB</color>
+    <color name="button_text_shadow">#7F000000</color>
+    <color name="field_error">#f2bebe</color>
+    <color name="theme_blue">#47CEBD</color>
+    <color name="theme_blue_dark">#39CAB8</color>
+    <color name="theme_blue_light">#B0EAE2</color>
+    <color name="theme_creme">#F4F8DF</color>
+    <color name="theme_gray">#F8F8F8</color>
+    <color name="theme_gray_dark">#D3D3D3</color>
+    <color name="theme_gray_default_bg">#F5F5F5</color>
+    <color name="theme_gray_default_header">#D6D6D6</color>
+    <color name="theme_gray_very_dark">#5D5D5D</color>
+    <color name="theme_orange">#F8AD3D</color>
+    <color name="theme_orange_dark">#F09419</color>
+    <color name="theme_orange_light">#FFC954</color>
+    <!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="app_desc_font_size">14sp</dimen>
+    <dimen name="app_general_font_size">16sp</dimen>
+    <dimen name="app_grid_font_size">15sp</dimen>
+    <dimen name="app_list_button_font_size">13sp</dimen>
+    <dimen name="app_list_font_size">16sp</dimen>
+    <dimen name="app_page_no_font_size">13sp</dimen>
+    <dimen name="dimen_02">2dp</dimen>
+    <dimen name="dimen_05">5dp</dimen>
+    <dimen name="dimen_07">7dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Baby Bonus</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_ok">OK</string>
+    <string name="date_picker_button_cancel">CANCEL</string>
+    <string name="date_picker_button_clear">CLEAR</string>
+    <string name="date_picker_button_set">SET</string>
+    <string name="error_common_is_mandatory">is mandatory.</string>
+    <string name="exception_property_not_exist">The property %1$s does not exist in class %2$s</string>
+    <string name="text_app_dummy_app_name">Baby Bonus Scheme</string>
+    <string name="text_app_dummy_blank">.</string>
+    <string name="text_app_dummy_field_name">&lt;Name :></string>
+    <string name="text_app_dummy_hash">#</string>
+    <string name="text_app_dummy_hyphen">-</string>
+    <string name="text_app_dummy_section_header">Section Header</string>
+    <string name="text_app_instructions_denotes_mandatory">*Denotes mandatory fields.</string>
+    <string name="text_app_instructions_step_number">Step %1$d of %2$d</string>
+    <string name="title_activity_bbss_action_bar">BBSS Action Bar</string>
+    <!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonTextStyle">
+        <item name="android:shadowColor">@color/button_text_shadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2.1</item>
+        <item name="android:textColor">@color/button_light_font</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

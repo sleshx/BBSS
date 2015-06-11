@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/dimen_10"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lvMain"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:scrollbars="none" />
+
+</LinearLayout>
+<!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/layout/layout_pop_list.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Button to Add Child -->
+
+    <include
+        android:id="@+id/screen_1buttons"
+        layout="@layout/clickable_1buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Questions Section -->
+
+    <include
+        android:id="@+id/edit_is_married"
+        layout="@layout/show_label_spinner_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screen_1buttons" />
+
+    <include
+        android:id="@+id/edit_is_marriage_reg_in_singapore"
+        layout="@layout/show_label_spinner_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_is_married" />
+
+    <!-- Supporting Document Section -->
+
+    <include
+        android:id="@+id/supporting_docs"
+        layout="@layout/layout_supporting_doc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_is_marriage_reg_in_singapore" />
+
+    <!-- Buttons -->
+
+    <include
+        android:id="@+id/screen_3buttons"
+        layout="@layout/clickable_3buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/supporting_docs" />
+
+</LinearLayout>

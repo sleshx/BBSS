@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_change_nah_instruction_page1"><h4>Request to Change Nominated Account Holder (NAH)</h4>
+        <p>Please select the enrolmentChildStatuses/children for whom you are requesting for the change.</p>
+        <div id="expand-box">
+        <div id="expand-box-header">
+          <span style="float: left;">*Denotes mandatory fields.</span>
+          <span style="float: right;">Step 1 of 5</span>
+        </div>
+        </div>
+    </string>
+</resources>

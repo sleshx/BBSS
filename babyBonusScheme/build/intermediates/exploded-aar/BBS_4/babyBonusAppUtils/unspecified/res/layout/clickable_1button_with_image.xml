@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/imageButton"
+        style="@style/ButtonTextStyle"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:layout_margin="15dip"
+        android:background="@drawable/button_gradient"
+        android:textSize="@dimen/app_list_button_font_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout><!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/layout/clickable_1button_with_image.xml -->

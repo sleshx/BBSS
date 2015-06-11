@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/screen_instructions"
+        layout="@layout/screen_instructions_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/section_header"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+<!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/layout/section_header_row_and_instruction_row.xml -->

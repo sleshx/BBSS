@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_alignParentLeft="true"
+    android:paddingBottom="@dimen/dimen_10"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvListRowHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/dimen_10"
+        android:text="@string/text_app_dummy_hyphen"
+        android:textStyle="bold"
+        android:textSize="@dimen/app_general_font_size" />
+
+    <include
+        android:id="@+id/listview_row_1"
+        layout="@layout/show_label_textview_with_no_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvListRowHeader"/>
+
+    <include
+        android:id="@+id/listview_row_2"
+        layout="@layout/show_label_textview_with_no_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listview_row_1" />
+
+</LinearLayout>
+
+<!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/layout/listitem_2rows_header.xml -->

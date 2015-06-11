@@ -1,0 +1,137 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.gov.msf.bbss.view.home.UpdateProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/ll_update"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/screen_title_bar"
+            layout="@layout/action_bar_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/screen_instructions"
+            layout="@layout/screen_instructions_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/nricTv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/identification_type_tv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/identification_number_tv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/name_tv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/nationality_tv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/date_of_birth_tv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/edit_person_communication_mode"
+            layout="@layout/show_label_spinner_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <include
+            android:id="@+id/edit_person_mobile"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/edit_person_email"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/address_tv"
+            layout="@layout/show_label_textview_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/update_ll_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/postal_code_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <include
+                android:id="@+id/unit_no_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <include
+                android:id="@+id/block_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <include
+                android:id="@+id/street_name_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <include
+                android:id="@+id/building_name_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_ll_foreign"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/adress1_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+            <include
+                android:id="@+id/adress2_tv"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <include
+            android:id="@+id/submit_buttons"
+            layout="@layout/clickable_1buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

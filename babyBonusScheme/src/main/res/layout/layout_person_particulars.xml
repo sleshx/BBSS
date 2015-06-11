@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/screen_instructions"
+                layout="@layout/screen_instructions_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Person Particulars-->
+
+            <include
+                android:id="@+id/section_person_particulars"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_instructions" />
+
+            <include
+                android:id="@+id/edit_person_nric"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_person_particulars" />
+
+            <include
+                android:id="@+id/edit_person_id_type"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_nric" />
+
+            <include
+                android:id="@+id/edit_person_id_no"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_id_type" />
+
+            <include
+                android:id="@+id/edit_person_name_as_in"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_id_no" />
+
+            <include
+                android:id="@+id/edit_person_nationality"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_name_as_in" />
+
+            <include
+                android:id="@+id/edit_person_birthday"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_nationality" />
+
+            <include
+                android:id="@+id/edit_person_communication_mode"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_birthday" />
+
+            <include
+                android:id="@+id/edit_person_mobile"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_communication_mode" />
+
+            <include
+                android:id="@+id/edit_person_email"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_mobile" />
+
+            <include
+                android:id="@+id/edit_person_occupation"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_email" />
+
+            <include
+                android:id="@+id/edit_person_monthly_income"
+                layout="@layout/show_label_edittext_with_dollar_with_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_occupation" />
+
+            <include
+                android:id="@+id/edit_person_address_type"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_monthly_income" />
+
+            <!-- Buttons -->
+
+            <include
+                android:id="@+id/screen_1buttons"
+                layout="@layout/clickable_1buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_person_address_type" />
+
+            <include
+                android:id="@+id/screen_2buttons"
+                layout="@layout/clickable_2buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_1buttons" />
+
+            <include
+                android:id="@+id/screen_3buttons"
+                layout="@layout/clickable_3buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_2buttons" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

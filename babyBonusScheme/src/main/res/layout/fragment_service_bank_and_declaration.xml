@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:context="sg.gov.msf.bbss.view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/screen_instructions"
+                layout="@layout/screen_instructions_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Bank Account -->
+
+            <include
+                android:id="@+id/bank_account_details_section"
+                layout="@layout/layout_bank_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_instructions" />
+
+            <!-- Declaration -->
+
+            <include
+                android:id="@+id/declaration_section"
+                layout="@layout/layout_declarations"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bank_account_details_section" />
+
+            <!-- Buttons -->
+
+            <include
+                android:id="@+id/screen_buttons"
+                layout="@layout/clickable_2buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/declaration_section" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

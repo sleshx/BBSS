@@ -1,0 +1,84 @@
+package sg.gov.msf.bbss.apputils.wizard;
+
+import java.util.Collections;
+import java.util.HashMap;
+
+import sg.gov.msf.bbss.apputils.validation.ValidationInfo;
+
+/**
+ * Created by bandaray on 23/2/2015.
+ */
+public class WizardBase {
+
+    private HashMap<Integer, HashMap<String, ValidationInfo>> wizardValidation;
+    private HashMap<String, Integer> sectionPages;
+
+    private boolean displayValidationErrors;
+
+    public WizardBase() {
+        this.wizardValidation = new HashMap<Integer, HashMap<String, ValidationInfo>>();
+        this.sectionPages = new HashMap<String, Integer>();
+    }
+
+    public void addPageValidationError(int pageIndex, ValidationInfo validationInfo) {
+        if(!wizardValidation.containsKey(pageIndex)) {
+            wizardValidation.put(pageIndex, new HashMap<String, ValidationInfo>());
+        }
+
+        HashMap<String, ValidationInfo> pageValidations = wizardValidation.get(pageIndex);
+        ValidationInfo existingValidationInfo = pageValidations.get(validationInfo.getSectionName());
+
+        if(existingValidationInfo != null) {
+            for (ValidationMessage validationMessage : existingValidationInfo.getValidationMessages()) {
+                if(validationMessage.getValidationType() == ValidationType.SERVER){
+                    validationInfo.addValidationMessage(validationMessage);
+                }
+            }
+        }
+
+        pageValidations.put(validationInfo.getSectionName(), validationInfo);
+    }
+
+    public void addPageValidationError(String sectionName, ValidationInfo validationInfo) {
+        Integer pageIndex = sectionPages.get(sectionName);
+        addPageValidationError(pageIndex, validationInfo);
+    }
+
+    public void clearPageValidationErrors(int pageIndex) {
+        wizardValidation.remove(pageIndex);
+    }
+
+    public ValidationInfo getPageSectionValidationErrors(int pageIndex, String section) {
+        HashMap<String, ValidationInfo> pageValidations = wizardValidation.get(pageIndex);
+
+        if(pageValidations != null){
+            return pageValidations.get(section);
+        }
+
+        return new ValidationInfo(section);
+    }
+
+    public boolean hasValidationErrors() {
+        return wizardValidation.size() > 0;
+    }
+
+    public int getFirstErrorPage() {
+        if(wizardValidation.size() == 0){
+            return -1;
+        }
+
+        return Collections.min(wizardValidation.keySet());
+    }
+
+    public boolean isDisplayValidationErrors() {
+        return displayValidationErrors;
+    }
+
+    public void setDisplayValidationErrors(boolean displayValidationErros) {
+        this.displayValidationErrors = displayValidationErros;
+    }
+
+    public void addSectionPage(String sectionName, Integer pageIndex){
+        sectionPages.put(sectionName, pageIndex);
+    }
+}

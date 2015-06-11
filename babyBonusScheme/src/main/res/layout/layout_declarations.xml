@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/section_declaration"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/declaration_descriptions"
+        layout="@layout/screen_descriptions_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_declaration" />
+
+    <include
+        android:id="@+id/declaration_1"
+        layout="@layout/show_label_checkbox_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/declaration_descriptions" />
+
+    <include
+        android:id="@+id/declaration_2"
+        layout="@layout/show_label_checkbox_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/declaration_1" />
+
+    <include
+        android:id="@+id/declaration_3"
+        layout="@layout/show_label_checkbox_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/declaration_2" />
+
+    <include
+        android:id="@+id/declaration_4"
+        layout="@layout/show_label_checkbox_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/declaration_3" />
+</LinearLayout>

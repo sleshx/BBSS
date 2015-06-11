@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/change_birth_order_step_two_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:text="Sam Bing"
+            android:textStyle="bold"
+            android:textSize="@dimen/app_general_font_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="10dp"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:text="Current Birth Order:"
+                android:textSize="@dimen/app_general_font_size" />
+
+            <TextView
+                android:id="@+id/change_birth_order_step_two_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:text="1"
+                android:textSize="@dimen/app_general_font_size" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/change_birth_order_step_two_list_edit"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:numeric="integer"
+        android:maxLength="2"
+        android:background="@drawable/shape"
+        android:gravity="center_vertical"/>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.gov.msf.bbss.view.home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/slibing_check_layout"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/screen_title_bar"
+            layout="@layout/action_bar_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/screen_instructions"
+            layout="@layout/section_header_row_and_instruction_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/silibing_check_child1"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/silibing_check_child2"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <include
+            android:id="@+id/screen_buttons"
+            layout="@layout/clickable_1buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

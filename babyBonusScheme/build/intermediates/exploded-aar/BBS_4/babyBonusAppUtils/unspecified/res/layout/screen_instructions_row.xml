@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10"
+    android:background="@color/theme_creme"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <TextView
+        android:id="@+id/tvInstructionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/dimen_10"
+        android:text="@string/text_app_dummy_section_header"
+        android:textSize="@dimen/app_desc_font_size"
+        android:textStyle="bold"/>
+
+    <WebView
+        android:id="@+id/wvInstructionDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/dimen_10"
+        android:text="@string/text_app_dummy_section_header"
+        android:textSize="@dimen/app_desc_font_size" />
+
+    <WebView
+        android:id="@+id/wvErrorDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/dimen_10"
+        android:text="@string/text_app_dummy_section_header"
+        android:textSize="@dimen/app_desc_font_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvInstructionMandatory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/text_app_instructions_denotes_mandatory"
+            android:textSize="@dimen/app_page_no_font_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvInstructionStepNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/text_app_instructions_step_number"
+            android:textSize="@dimen/app_page_no_font_size"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+<!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/layout/screen_instructions_row.xml -->

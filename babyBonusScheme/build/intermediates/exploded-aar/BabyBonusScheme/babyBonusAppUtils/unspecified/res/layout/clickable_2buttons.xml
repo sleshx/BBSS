@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_creme">
+
+    <Button
+        android:id="@+id/btnFirstInTwo"
+        style="@style/ButtonTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/button_gradient" />
+
+    <Button
+        android:id="@+id/btnSecondInTwo"
+        style="@style/ButtonTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:background="@drawable/button_gradient" />
+
+</LinearLayout><!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/layout/clickable_2buttons.xml -->

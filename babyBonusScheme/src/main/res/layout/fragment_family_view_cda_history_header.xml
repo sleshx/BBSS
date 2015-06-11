@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <!-- Instructions -->
+
+    <include
+        android:id="@+id/screen_instructions"
+        layout="@layout/screen_instructions_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- CDA History List View Header -->
+    <include
+        android:id="@+id/family_view_cdah_list_view_header"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screen_instructions" />
+
+</RelativeLayout>

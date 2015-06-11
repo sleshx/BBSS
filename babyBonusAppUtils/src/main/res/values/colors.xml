@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme Blue -->
+    <color name="theme_blue_dark">#39CAB8</color>
+    <color name="theme_blue">#47CEBD</color>
+    <color name="theme_blue_light">#B0EAE2</color>
+    
+    <!-- Theme Orange -->
+    <color name="theme_orange_dark">#F09419</color>
+    <color name="theme_orange">#F8AD3D</color>
+    <color name="theme_orange_light">#FFC954</color>
+    
+    <!-- Theme Creme -->
+    <color name="theme_creme">#F4F8DF</color>
+    
+    <!-- Theme Gray #fff3f3f3-->
+    <color name="theme_gray_very_dark">#5D5D5D</color>
+    <color name="theme_gray_dark">#D3D3D3</color>
+    <color name="theme_gray">#F8F8F8</color>
+    <color name="theme_gray_default_bg">#F5F5F5</color>
+    <color name="theme_gray_default_header">#D6D6D6</color>
+
+    <!-- Button Text -->
+    <color name="button_text_shadow">#7F000000</color>
+    <color name="button_light_font">#FBFBFB</color>
+
+    <!-- Error Fields -->
+    <color name="field_error">#f2bebe</color>
+
+
+</resources>

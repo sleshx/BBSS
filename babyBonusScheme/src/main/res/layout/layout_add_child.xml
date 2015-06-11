@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/screen_instructions"
+                layout="@layout/screen_instructions_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Add Child -->
+
+            <include
+                android:id="@+id/section_add_child"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_instructions" />
+
+            <include
+                android:id="@+id/edit_registration_child_born"
+                layout="@layout/show_label_spinner_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_add_child" />
+
+            <include
+                android:id="@+id/edit_registration_child_name"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_registration_child_born" />
+
+            <include
+                android:id="@+id/edit_registration_child_certificate_no"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_registration_child_name" />
+
+            <!-- Supporting Document Section -->
+
+            <include
+                android:id="@+id/supporting_docs"
+                layout="@layout/layout_supporting_doc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_registration_child_certificate_no" />
+
+            <!-- Add Child -->
+
+            <include
+                android:id="@+id/screen_3buttons"
+                layout="@layout/clickable_3buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/supporting_docs" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

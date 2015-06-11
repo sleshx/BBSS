@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <include
+            android:id="@+id/added_child_declaration_name"
+            layout="@layout/show_textview_with_no_line"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/added_child_declaration_type"
+            layout="@layout/show_label_textview_with_no_line"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/added_child_declaration_name" />
+
+        <include
+            android:id="@+id/added_child_declaration_birthday"
+            layout="@layout/show_label_textview_with_no_line"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/added_child_declaration_type" />
+
+        <include
+            android:id="@+id/added_child_declaration_birth_cert"
+            layout="@layout/show_label_textview_with_no_line"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/added_child_declaration_birthday" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <include
+            android:id="@+id/edit_view_button_section"
+            layout="@layout/clickable_1button_with_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+        <include
+            android:id="@+id/delete_button_section"
+            layout="@layout/clickable_1button_with_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

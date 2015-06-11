@@ -1,0 +1,5 @@
+D:\Workspace\MSF_BBSS_Android\NCS.CAOMCC-GIT\BabyBonusScheme\babyBonusScheme\build\intermediates\classes\debug
+D:\Workspace\MSF_BBSS_Android\NCS.CAOMCC-GIT\BabyBonusScheme\babyBonusScheme\build\intermediates\pre-dexed\debug\classes-42c3d66ea292534e4c2aa5cff81e9409e6013375.jar
+D:\Workspace\MSF_BBSS_Android\NCS.CAOMCC-GIT\BabyBonusScheme\babyBonusScheme\build\intermediates\pre-dexed\debug\gson-2.2.2-d0cb891d6d63d87d5d45ee5a4952806f46ce4fa7.jar
+D:\Workspace\MSF_BBSS_Android\NCS.CAOMCC-GIT\BabyBonusScheme\babyBonusScheme\build\intermediates\pre-dexed\debug\classes-438d476b224889d91a68848586e106c574120830.jar
+D:\Workspace\MSF_BBSS_Android\NCS.CAOMCC-GIT\BabyBonusScheme\babyBonusScheme\build\intermediates\pre-dexed\debug\support-v4-19.1.0-be12b2bfe61ce84719ca8adbb64a57e21a77c233.jar

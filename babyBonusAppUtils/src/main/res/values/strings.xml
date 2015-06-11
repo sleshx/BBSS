@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Baby Bonus</string>
+
+    <!-- Buttons -->
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">CANCEL</string>
+
+    <!-- TextView -->
+    <string name="text_app_dummy_field_name">&lt;Name :&gt;</string>
+    <string name="text_app_dummy_section_header">Section Header</string>
+    <string name="text_app_dummy_app_name">Baby Bonus Scheme</string>
+    <string name="text_app_dummy_hyphen">-</string>
+    <string name="text_app_dummy_hash">#</string>
+    <string name="text_app_dummy_blank">.</string>
+
+    <!-- DatePicker -->
+    <string name="date_picker_button_set">SET</string>
+    <string name="date_picker_button_cancel">CANCEL</string>
+    <string name="date_picker_button_clear">CLEAR</string>
+
+
+    <!-- Exception Messages -->
+    <string name="exception_property_not_exist">The property %1$s does not exist in class %2$s</string>
+
+    <!-- Error Messages -->
+    <string name="error_common_is_mandatory">is mandatory.</string>
+
+    <!-- Screen Instructions -->
+    <string name="text_app_instructions_denotes_mandatory">*Denotes mandatory fields.</string>
+    <string name="text_app_instructions_step_number">Step %1$d of %2$d</string>
+
+    <!-- Others -->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bbss_action_bar">BBSS Action Bar</string>
+
+</resources>

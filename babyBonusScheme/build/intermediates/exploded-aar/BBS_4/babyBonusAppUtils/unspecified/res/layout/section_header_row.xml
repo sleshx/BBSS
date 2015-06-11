@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvSectionHeaderRow"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/theme_blue"
+    android:padding="@dimen/dimen_05"
+    android:text="@string/text_app_dummy_section_header"
+    android:textColor="@android:color/white" />
+<!-- From: file:/Users/chandraat/AndroidStudioProjects/BBS_4/babyBonusAppUtils/src/main/res/layout/section_header_row.xml -->

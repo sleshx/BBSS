@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Baby Bonus Scheme</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BUTTONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <string name="btn_next">NEXT</string>
+    <string name="btn_submit">SUBMIT</string>
+    <string name="btn_save_as_draft">SAVE AS DRAFT</string>
+    <string name="btn_add_child">ADD CHILD</string>
+    <string name="btn_add_declaration">ADD DECLARATION</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_reset">RESET</string>
+    <string name="btn_edit">EDIT</string>
+    <string name="btn_view">VIEW</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_browse">BROWSE</string>
+    <string name="btn_apply_now">APPLY NOW</string>
+    <string name="btn_edit_app">EDIT APPLICATION</string>
+    <string name="btn_view_app">VIEW APPLICATION</string>
+    <string name="btn_check">CHECK</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LABELS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Labels : Home Grid Values -->
+    <string name="label_home_family_view">Family View</string>
+    <string name="label_home_update_profile">Update Profile</string>
+    <string name="label_home_sibling_check">Sibling Check</string>
+    <string name="label_home_enrolment">Enrolment</string>
+    <string name="label_home_enrolment_status">Enrolment\nStatus</string>
+    <string name="label_home_eligibility_check">Eligibility Check</string>
+    <string name="label_home_services">Services</string>
+    <string name="label_home_services_status">Services\nStatus</string>
+    <string name="label_home_ai_locator">AI Locator</string>
+
+    <!-- Labels : Home Option Menu Items -->
+    <string name="label_home_faq">FAQ</string>
+    <string name="label_home_feedback">Feedback</string>
+    <string name="label_home_about">About</string>
+
+    <!-- Labels : Person -->
+    <string name="label_person_nric">NRIC/FIN</string>
+    <string name="label_person_name">Name</string>
+    <string name="label_person_birthday">Date of Birth</string>
+    <string name="label_person_type">Type</string>
+
+    <!-- Labels : Child -->
+    <string name="label_child">Child</string>
+    <string name="label_child_name">Child Name</string>
+    <string name="label_child_birth_cert_no">Birth Cert: No</string>
+    <string name="label_child_birth_certificate_no">Birth Certificate No</string>
+    <string name="label_child_current_birth_order">Current Birth Order</string>
+    <string name="label_child_estimated_delivery_date">Estimated Date of Delivery</string>
+    <string name="label_child_cash_gift_amount">Cash Gift</string>
+    <string name="label_child_government_matching_amount">Govt Matching</string>
+    <string name="label_child_child_care_subsidy_amount">Childcare Subsidy</string>
+    <string name="label_child_total_amount_received">Total Amount Received</string>
+    <string name="label_child_born_on_overseas">Is your child born overseas</string>
+    <string name="label_child_date_of_adoption">Date of Adoption</string>
+
+    <!-- Labels : Adult -->
+    <string name="label_adult">Adult</string>
+    <string name="label_adult_id_no">ID No.</string>
+    <string name="label_adult_identification_type">Identification Type</string>
+    <string name="label_adult_identification_no">Passport No./ Foreign ID</string>
+    <string name="label_adult_name_as_in">Name (as in NRIC/ Passport)</string>
+    <string name="label_adult_nationality">Nationality</string>
+    <string name="label_adult_communication_mode">Mode of Communication</string>
+    <string name="label_adult_mobile_no">Mobile</string>
+    <string name="label_adult_email_addr">Email</string>
+    <string name="label_adult_addr_type">Address Type</string>
+    <string name="label_adult_address">Address</string>
+    <string name="label_adult_occupation">Occupation</string>
+    <string name="label_adult_monthly_income">Monthly Income</string>
+    <string name="label_adult_relationship">Relationship</string>
+
+    <!-- Labels : NA Holder -->
+    <string name="label_na_holder_long">Nominated Account Holder for Cash Gift</string>
+
+    <!-- Labels : CDA Trustee -->
+    <string name="label_cda_trustee_long">Child Development Account Trustee</string>
+    <string name="label_cda_trustee_change_reason">Reason for Change of Trustee</string>
+    <string name="label_cda_trustee_change_reason_other">Other Reason</string>
+
+    <!-- Labels : User -->
+    <string name="label_user_details">User</string>
+
+    <!-- Labels : Adult Types -->
+    <string name="label_adult_type_father">Father</string>
+    <string name="label_adult_type_mother">Mother</string>
+    <string name="label_adult_type_nah">Nominated Account Holder</string>
+    <string name="label_adult_type_cdat">CDA Trustee</string>
+    <string name="label_adult_type_third_party">Third Party</string>
+
+    <!-- Labels : Bank -->
+    <string name="label_bank_name">Bank</string>
+    <string name="label_bank_branch">Bank Branch</string>
+    <string name="label_bank_tc_url">Bank T&amp;C</string>
+    <string name="label_bank_account">Bank Account No.</string>
+
+    <!-- Labels : CDA Bank -->
+    <string name="label_cda_bank_change_reason">Reason for Change of Bank</string>
+    <string name="label_cda_bank_change_reason_other">Other Reason</string>
+
+    <!-- Labels : Address -->
+    <string name="label_address_local">Local Address</string>
+    <string name="label_address_postal_code">Postal Code</string>
+    <string name="label_address_floor_no">Floor No.</string>
+    <string name="label_address_unit_no">Unit No.</string>
+    <string name="label_address_block_house">Block/House No.</string>
+    <string name="label_address_street_name">Street Name</string>
+    <string name="label_address_building_name">Building Name</string>
+    <string name="label_address_foreign">Foreign Address</string>
+    <string name="label_address_address1">Address 1</string>
+    <string name="label_address_address2">Address 2</string>
+
+    <!-- Labels : Cash Gift -->
+    <string name="label_cash_gift">Cash Gift</string>
+    <string name="label_cash_gift_amount">Amount</string>
+    <string name="label_cash_gift_paid_date">Paid Date</string>
+    <string name="label_cash_gift_scheduled_date">Scheduled Date</string>
+
+    <!-- Labels : Child Development Account -->
+    <string name="label_child_dev_acc">Child Development Account</string>
+    <string name="label_child_dev_acc_detail">CDA Details</string>
+    <string name="label_child_dev_acc_bank">CDA Bank</string>
+    <string name="label_child_dev_acc_expiry">CDA Expiry Date</string>
+    <string name="label_child_dev_acc_cap">CDA Cap</string>
+    <string name="label_child_dev_acc_remaining_cap">Remaining Cap</string>
+    <string name="label_child_dev_acc_total_deposit">Total CDA Deposit</string>
+    <string name="label_child_dev_acc_total_gov_matching">Total Govt Matching</string>
+    <string name="label_child_dev_acc_matching_history">CDA Matching History</string>
+    <string name="label_child_dev_acc_from_date">From Date</string>
+    <string name="label_child_dev_acc_to_date">To Date</string>
+    <string name="label_child_dev_acc_nets_card_child_name">Child\'s Name to be printed on Baby Bonus NETS Card</string>
+
+    <!-- Labels : Child Development Account Matching History -->
+    <string name="label_cda_matching_history">CDA Matching History</string>
+    <string name="label_cda_matching_history_deposit">CDA Deposit</string>
+    <string name="label_cda_matching_history_deposit_date">CDA Deposit Date</string>
+    <string name="label_cda_matching_history_matching">Govt. Matching</string>
+    <string name="label_cda_matching_history_matching_date">Matched Date</string>
+
+    <!-- Labels : Child Care Subsidy -->
+    <string name="label_child_care_subsidy">Child Care Subsidy</string>
+    <string name="label_child_care_subsidy_name">Name of Centre</string>
+    <string name="label_child_care_subsidy_amount">Amount</string>
+    <string name="label_child_care_subsidy_month">Month</string>
+    <string name="label_child_care_subsidy_total">Total Childcare Subsidies</string>
+
+    <!-- Labels : Enrolment -->
+    <string name="label_enrolment_main_header">Instructions for joining the BBS</string>
+
+    <!-- Labels : Services List Values -->
+    <string name="label_service_change_nah">Request to change Nominated Account Holder</string>
+    <string name="label_service_change_nan">Request to change Nominated Account Number</string>
+    <string name="label_service_change_cdat">Request to change CDA Trustee</string>
+    <string name="label_service_change_cdab">Request to change CDA Bank</string>
+    <string name="label_service_cda_psea">Request to transfer from CDA to PSEA</string>
+    <string name="label_service_change_bo">Request to change Birth Order</string>
+    <string name="label_service_cdab_tc">Acceptance of CDA Bank T&amp;C</string>
+    <string name="label_service_open_cda">Opening of CDA</string>
+
+    <!-- Labels : Services Status -->
+    <string name="label_service_status_change_nah">Change of NAH</string>
+    <string name="label_service_status_change_nan">Change of Account No</string>
+    <string name="label_service_status_change_cdat">Change of CDA Trustee</string>
+    <string name="label_service_status_change_cdab">Change of CDA Bank</string>
+    <string name="label_service_status_cda_psea">Transfer from CDA to PSEA</string>
+    <string name="label_service_status_change_bo">Change of Birth Order</string>
+    <string name="label_service_status_cdab_tc">Acceptance of CDA Bank T&amp;C</string>
+    <string name="label_service_status_open_cda">Opening of CDA</string>
+
+    <!-- Labels : Services Status Item -->
+    <string name="label_service_status_state">Status</string>
+    <string name="label_service_status_id">ID</string>
+    <string name="label_service_status_type">Type</string>
+    <string name="label_service_status_date">Date</string>
+
+    <!-- Labels : Services -->
+    <string name="label_services_common">Services</string>
+    <string name="label_services_common_is_pending">Outstanding</string>
+    <string name="label_services_current_nah">Current NAH</string>
+    <string name="label_services_new_nah">New Nominated Account Holder</string>
+    <string name="label_services_new_cdat_label">New Trustee </string>
+    <string name="label_services_new_cdat_header">New CDA Trustee </string>
+    <string name="label_services_new_cdab">New CDA Bank</string>
+    <string name="label_services_nominated_cdat">Nominated CDA Trustee</string>
+    <string name="label_services_cdat">Trustee</string>
+    <string name="label_services_bank_no">Bank No</string>
+    <string name="label_services_new_bank_acc_details">New Bank Account Details</string>
+    <string name="label_services_new_acc_details">New Account Details</string>
+    <string name="label_services_cda_no">CDA No.</string>
+    <string name="label_services_cda_bank">CDA Bank</string>
+    <string name="label_services_cda_bank_tc">Bank\'s T&amp;C</string>
+    <string name="label_services_open_cda_trustee">Current Trustee</string>
+    <string name="label_services_open_cda_relationship">Relationship</string>
+    <string name="label_services_direct_credit_auth">Direct Credit Authorisation</string>
+    <string name="label_services_change_bo">Reason for Request</string>
+
+    <!-- Labels : Family View -->
+    <string name="label_family_view_years">year(s)</string>
+    <string name="label_family_view_months">month(s)</string>
+    <string name="label_family_view_from_date">From Date</string>
+    <string name="label_family_view_to_date">To Date</string>
+
+    <!-- Labels : Sibling Check -->
+    <string name="label_sibling_check_child_1">Child 1 NRIC/FIN</string>
+    <string name="label_sibling_check_child_2">Child 2 NRIC/FIN</string>
+
+    <!-- Labels : Child Registration -->
+    <string name="label_child_reg_pre_birth_est_date">Estimated Date of Delivery</string>
+    <string name="label_child_reg_is_married">Are you married ?</string>
+    <string name="label_child_reg_is_reg_in_singapore">Is your marriage registered in Singapore ?</string>
+    <string name="label_child_reg_type">registration type</string>
+
+    <!-- Labels : Child Registration : Types -->
+    <string name="label_child_reg_type_pre_birth">Pre-Birth Registration</string>
+    <string name="label_child_reg_type_post_birth">Post-Birth Registration</string>
+    <string name="label_child_reg_type_citizenship">Citizenship Registration</string>
+    <string name="label_child_reg_type_adoption">Adoption Registration</string>
+
+    <!-- Labels : Child Declaration : Types -->
+    <string name="label_child_dec_has_given_up_for_adaption">a. The mother has previously given up her child/children for adoption</string>
+    <string name="label_child_dec_has_adopted">b. The mother has an adopted child/children</string>
+    <string name="label_child_dec_has_non_singapore_child">c. The Mother has another non-Singaporean child/other non-Singaporean children and this is the first time applying for Baby Bonus</string>
+    <string name="label_child_dec_has_singapore_born_child">d. The mother has an elder child/children who was/were not a Singaporean citizen at birth but have since obtained Singaporen citizenship</string>
+    <string name="label_child_dec_has_deceased">e. The mother has a deceased child/children</string>
+
+    <!-- Labels : Child Declaration -->
+    <string name="label_child_dec_type">Type of Declaration</string>
+    <string name="label_child_dec_date_of_adoption">Date child was given up for adoption</string>
+    <string name="label_child_dec_date_of_adoption_order">Date of adoption order</string>
+    <string name="label_child_dec_country_of_birth">Country of Birth</string>
+    <string name="label_child_dec_singapore_citizenship_no">Singapore Citizenship No</string>
+    <string name="label_child_dec_date_deceased">Deceased Date</string>
+    <string name="label_child_dec_remarks">Remark</string>
+    <string name="label_child_dec_header">Details of Children Born to Mother</string>
+
+    <!-- Labels : Supporting Documents -->
+    <string name="label_supporting_doc">Supporting Documents</string>
+
+    <!-- Labels : Common -->
+    <string name="label_common_id">ID</string>
+    <string name="label_common_declaration">Declaration</string>
+    <string name="label_common_account_no">Account No.</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Descriptions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Descriptions : Services - Common -->
+    <string name="desc_services_common_child_list_instruction_desc">Please select the child/children for whom you are requesting for the change.</string>
+    <string name="desc_services_common_declaration_required">You must declare that all information provided in this application is true and correct</string>
+    <string name="desc_services_common_declaration_desc_1">I authorise you to credit the cash payments payable by the Government into the bank account specified below. The authorisation shall continue to be in force until I have expressly revoked it by notice in writing to you. I understand that you may in your absolute discretion terminate this arrangement by giving written notice to my official address</string>
+    <string name="desc_services_common_declaration_1">* I declare that all information provided in this application is true and correct</string>
+    <string name="desc_services_common_declaration_2">* I agree that all the information provided in this online form may be shared with the organisations appointed by MSF to &lt;p&gt;(i) open and manage the Child Development Accounts (CDAs) and &lt;p&gt;(ii) send me reminders and notifications related to the Baby Bonus Scheme. </string>
+    <string name="desc_services_common_declaration_3">* I accept all terms and conditions for the &lt;a href="%1$s."&gt;CDA&lt;/a&gt;.</string>
+    <string name="desc_services_common_status">Below is a list of all the applications that you have made over the past 1 year</string>
+    <string name="desc_services_common_acknowledgement_title_desc">For enquiries or assistance, please call the Baby Bonus hotline at 1800 253 7707 (local) or +65 6253 7707 (overseas); or email msf_babybonus@msf.gov.sg</string>
+    <string name="desc_services_common_acknowledgement_desc">Your application number is %1$s. &lt;p&gt;Please note down this application number for your future correspondences with MSF.&lt;p&gt;You have submitted your application successfully. We will proceed to process your application.</string>
+    <string name="desc_services_common_acknowledgement_header">Submission Acknowledgement</string>
+
+    <!-- Descriptions : Services - NAH -->
+    <string name="desc_services_change_nah_instruction_title">Request to Change Nominated Account Holder (NAH)</string>
+    <string name="desc_services_change_nah_declaration_desc">I hereby authorise the above named person to be the Nominated Bank Account Holder in accordance with the Child Development Co-Savings Act.</string>
+
+    <!-- Descriptions : Services - NAN -->
+    <string name="desc_services_change_nan_instruction_title">Request to Change Nominated Account Number</string>
+
+    <!-- Descriptions : Services - CDAT -->
+    <string name="desc_services_change_cdat_instruction_title">Request to Change Child Development Account (CDA) Trustee</string>
+    <string name="desc_services_change_cdat_instruction_desc">Note that this is applicable to children who are eligible for opening a Child Development Account (CDA).&lt;p&gt; Please select the child/children for whom you are requesting for the change</string>
+
+    <!-- Descriptions : Services - CDAB -->
+    <string name="desc_service_change_cdab_instruction_title">Request to Change Child Development Account (CDA) Bank</string>
+    <string name="desc_services_change_cdab_instruction_desc">Note that this is applicable to children who are eligible for opening a Child Development Account (CDA).&lt;p&gt; Please select the child/children for whom you are requesting for the change</string>
+
+    <!-- Descriptions : Services - PSEA -->
+    <string name="desc_services_transfer_psea_instruction_title">Request to Transfer from Child Development Account (CDA) to PSEA</string>
+    <string name="desc_services_transfer_psea_instruction_desc">This is application for children born between 2006 and 2012 and of 7 years old.&lt;p&gt;Please select the child/children for whom you are requesting for the transfer.</string>
+    <string name="desc_services_transfer_psea_bank_declaration_desc">Note: There is a cap for the balance transfer to &lt;a href="%1$s."&gt;PSEA&lt;/a&gt;. This cap is determined based on the child\'s CDA cap, maximum Government matching, Child Development Credit and prevailing interest.&lt;p&gt;On transferring the CDA balance to PSEA, I authorise you to credit any amount exceeding the PSEA cap into my bank account specified below.\n</string>
+
+    <!-- Descriptions : Services - CDABTC -->
+    <string name="desc_services_accept_cdab_tc_instruction_title">Accept CDA Bank’s Terms and Conditions </string>
+    <string name="desc_services_accept_cdab_tc_instruction_decs">Please select the child/children for whom you wish to accept the CDA Bank\'s Terms and Conditions</string>
+
+    <!-- Descriptions : Services - BO -->
+    <string name="desc_services_change_bo_instruction_title">Request to Change Birth Order</string>
+    <string name="desc_services_change_bo_child_list_instruction_desc">Please fill in birth order of all children who are Singapore citizens born alive to the mother, and/or adopted by the mother who is currently a Singapore Citizen</string>
+    <string name="desc_services_change_bo_child_list_instruction_desc_header">Instructions on Birth Order Determination</string>
+    <string name="desc_services_change_bo_instruction_1">1. Birth order is tagged to the natural mother and not the father.</string>
+    <string name="desc_services_change_bo_instruction_2">2. Children who are not Singapore Citizens, given away for adoption, stillbirths and stepchildren are not considered in the counting of birth.</string>
+    <string name="desc_services_change_bo_instruction_3">3. Twins and triplets (and other multiple births) are counted as separate births.</string>
+    <string name="desc_services_change_bo_example_1">
+        Example 1\n\n
+        Mr A and Mdm B have 3 children (child X, Y and Z) born in January 2007, January 2009 and January 2013.
+        Child X was born in USA and not a Singapore citizen as at January 2013.
+        Child Y and Z are Singapore citizens. Child Y and child Z will be considered as the first and second child respectively for the purpose of Baby Bonus Scheme.
+        Subsequently in June 2013, child X obtained Singapore citizenship and parents inform MSF accordingly.
+        Child Y and child Z will be re-determined as the second and third child.\n\n</string>
+    <string name="desc_services_change_bo_example_2">
+        Example 2\n\n
+        Mdm C gave birth to 3 children (child E, F and G) in 2002, 2005 and 2013 and they are Singapore citizens.
+        Child E and child F were from her first marriage to Mr L.
+        Subsequently Mdm C remarried to Mr M and gave birth to child G. Child G will be considered as the third child for the purpose of Baby Bonus Scheme.\n\n</string>
+    <string name="desc_services_change_bo_example_3">
+        Example 3\n\n
+        Mr J has 3 children (child O, P and Q) born in 2003, 2008 and 2013 and they are Singapore citizens.
+        Child O and child P were from Mr J’s first marriage to Mdm H.
+        Subsequently Mr J remarried to Mdm K and she gave birth to child Q.Child Q is Mdm K’s first child.
+        Child Q will be considered as the first child for the purpose of Baby Bonus Scheme.\n\n</string>
+    <string name="desc_services_change_bo_example_4">
+        Example 4\n\n
+        Mr and Mrs D have 2 children (child Q and R). Child Q was born in December 2005.
+        In February 2006, Mr and Mrs D legally adopted child R who is a Singapore Citizen and born in August 2004.
+        Child R will be considered as the second child for the purpose of Baby Bonus scheme, even though he/she may be older.\n\n</string>
+
+    <!-- Descriptions : Services - OPENCDA-->
+    <string name="label_services_open_cda_instruction_title">Opening of Child Development Account (CDA)</string>
+    <string name="label_services_open_cda_child_list_instruction_desc">Note that this is applicable to children who have not opened a Child Development Account (CDA). &lt;p&gt;Please select the child/children for whom you are requesting for CDA opening.</string>
+    <string name="label_services_open_cda_declaration">* I understand that the child\'s eligibility for the Baby Bonus Scheme is subject to Government\'s verification.</string>
+
+    <!-- Descriptions : Enrolment -->
+    <string name="label_enrolment_main_instruction">Application for New Baby Bonus Scheme</string>
+    <string name="label_enrolment_main_description">
+        "This form may take you 10 minutes to complete.&lt;p&gt;
+        &lt;b&gt;Before you begin, please take note that the following criteria must be met before you can apply:&lt;/b&gt;&lt;p&gt;
+        &lt;b&gt;1)&lt;/b&gt;	The mother is 8 weeks away from her Estimated Delivery Date (EDD); or the birth of the child has already been registered with the Immigration &amp; Checkpoints Authority (ICA) or at any Singapore hospitals one working day before; and&lt;p&gt;
+        &lt;b&gt;2)&lt;/b&gt;	The child will be &#47; is a Singapore Citizen at birth or has already obtained Singapore Citizenship;&lt;p&gt;
+        &lt;b&gt;3)&lt;/b&gt;	The parents are lawfully married.&lt;p&gt;&lt;p&gt;
+        &lt;b&gt;You may want to get ready the following documents to complete this form: &lt;/b&gt;&lt;p&gt;
+        &lt;b&gt;1)&lt;/b&gt; Both parents&#39; NRIC&lt;p&gt;
+        &lt;b&gt;2)&lt;/b&gt; Nominated Account Holder&#39;s personal particulars and Bank Account Details&lt;p&gt;
+        &lt;b&gt;3)&lt;/b&gt; Child Development Account (CDA) Trustee&#39;s personal particulars&lt;p&gt;
+        &lt;b&gt;4)&lt;/b&gt; Adoption Order and Schedule (if your child is adopted)&lt;p&gt;
+        &lt;b&gt;5)&lt;/b&gt; Marriage Certificate (if your marriage is registered overseas)&lt;p&gt;&lt;p&gt;
+        &lt;b&gt;Please click &#39;Apply Now&#39;. You will be redirected to SingPass for authentication purposes. &lt;/b&gt;&lt;p&gt;&lt;p&gt;
+        &lt;i&gt;For enquiries or assistance, please call the Baby Bonus hotline at 1800-253-7707 (local) or +65-62537707 (overseas); or email msf_babybonus@msf.gov.sg&lt;/i&gt;"</string>
+    <string name="label_enrolment_status">
+        &lt;p&gt; You have saved/submitted the below Baby Bonus application(s). Please select the application that you wish to enquire or edit.&lt;/p&gt;
+        &lt;i&gt;For enquiries or assistance, please call the Baby Bonus hotline at 1800 253 7707 (local) or +65 6253 7707 (overseas); or email&lt;/br&gt;&lt;u&gt;&lt;font color="blue"&gt; msf_babybonus@msf.gov.sg&lt;/br&gt;&lt;/u&gt;&lt;/font&gt;&lt;/i&gt;
+        &lt;p&gt;&lt;b&gt;Draft :&lt;/b&gt; Application is saved as draft&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Submitted :&lt;/b&gt;Application is submitted&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;In-progress :&lt;/b&gt;Application is being processed by MSF&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Successful :&lt;/b&gt; Application is successful&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Unsuccessful :&lt;/b&gt;Application is unsuccessful&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Application needs action by applicant :&lt;/b&gt; Application is pending for amendment/update&lt;/p&gt;
+        &lt;p&gt;&lt;font color="red"&gt;You have an application that needs your immediate attention! Please click on the application and edit it accordingly.&lt;/font&gt;&lt;/p&gt;
+        &lt;p&gt;Please &lt;u&gt;click&lt;/u&gt; here to Open CDA&lt;/p&gt;
+        &lt;p&gt;Please &lt;u&gt;click&lt;/u&gt; here to Accept CDA Bank’s T&amp;C&lt;/p&gt;
+    </string>
+
+    <string name="label_enrolment_fill_section_below_parent">Please fill in all the fields in the section below, if applicable.</string>
+    <string name="label_enrolment_fill_section_below_child_pre_birth">Skip this step if your child is born. &lt;p&gt;Please fill in the Estimated Date of Delivery in Pre-Birth Registration section, if your child is not born. </string>
+    <string name="label_enrolment_fill_section_below_child_post_birth">Skip this step if your child is born Overseas. &lt;p&gt;Please fill in all the fields in Post-Birth Registration section, if your child is born in Singapore and you have already registered the birth of the child 1 working day earlier. &lt;p&gt;If your child records are not found click on the \'Add Child\' button.</string>
+    <string name="label_enrolment_fill_section_below_child_post_birth_pre_pop">Skip this step if your child is born Overseas. &lt;p&gt;Please fill in all the fields in Post-Birth Registration section, if your child is born in Singapore and you have already registered the birth of the child 1 working day earlier.</string>
+    <string name="label_enrolment_fill_section_below_child_citizenship">Skip this step if your child is born in Singapore. &lt;p&gt;Please fill in all the fields in Citizenship Registration section, if your child was born overseas and has already obtained Singapore Citizenship. &lt;p&gt;If your child records are not found click on the \'Add Child\' button.</string>
+    <string name="label_enrolment_fill_section_below_child_citizenship_pre_pop">Skip this step if your child is born in Singapore. &lt;p&gt;Please fill in all the fields in Citizenship Registration section, if your child was born overseas and has already obtained Singapore Citizenship.</string>
+    <string name="label_enrolment_fill_section_below_child_adoption">If you have already obtained the Adoption Order and Schedule for your adopted child and re-registered the birth of your child with the Immigration and Checkpoints Authority (ICA).</string>
+    <string name="label_enrolment_fill_section_below_nah">Please fill in all the fields for the section for the Nominated Account Holder.</string>
+    <string name="label_enrolment_fill_section_below_cdat">Please fill in all the fields for the section for the Child Development Account Trustee.</string>
+    <string name="label_enrolment_fill_section_below_cda_bank">Please fill in all the fields for the section for the Child Development Account.</string>
+    <string name="label_enrolment_fill_section_below_nah_cg">Only the first child to the fourth child can receive the cash gift. It will be credited into the bank account of the Account Holder as listed.</string>
+    <string name="label_enrolment_fill_section_below_mother_dec">Please provide details in the table below (where applicable)</string>
+    <string name="label_enrolment_fill_section_below_local_address">Please enter the local address below.</string>
+    <string name="label_enrolment_fill_section_below_foreign_address">Please enter the foreign address below.</string>
+    <string name="label_enrolment_nah_type_selection">Please nominate the Account Holder for Cash Gift.</string>
+    <string name="label_enrolment_cdat_type_selection">Please nominate the Child Development Account (CDA) Trustee. &lt;p&gt;The nominated CDA Trustee must be above 18 years old.</string>
+    <string name="label_enrolment_post_birth_adult_supporting_doc_desc">Please upload the following supporting documents. &lt;p&gt;(a) Marriage Certificate </string>
+    <string name="label_enrolment_post_birth_child_supporting_doc_desc">Please upload your child\'s birth certificate.</string>
+    <string name="label_enrolment_citizenship_child_supporting_doc_desc">Please upload your child certificate if your child is born overseas.</string>
+    <string name="label_enrolment_citizenship_adult_supporting_doc_desc">Please upload the following supporting documents. &lt;p&gt;(a) ICA Citizenship Approval &lt;p&gt;(b) Marriage Certificate</string>
+    <string name="label_enrolment_adoption_adult_supporting_doc_desc">Please upload your child\'s adoption orders below.</string>
+    <string name="label_enrolment_child_registration_instruction">Please fill in the fields below.</string>
+    <string name="label_enrolment_mother_dec_list_footer">Please note the birth order is pegged to the number of children born alive to the mother or adopted by the mother.</string>
+
+    <!-- Descriptions : Home - About -->
+    <string name="desc_about_title">This application is a service of the Singapore Government.\n\n</string>
+    <string name="desc_about_content">Brief description of the mobile web,native mobile application and/or its features\n\nDate released:  27 May 2015\nVersion: 1.0\n\nEmail us to provide your suggestion on Baby Bonus Mobile app via @email</string>
+    <string name="desc_about_usage">Terms of use</string>
+    <string name="desc_about_privacy">Privacy Statement</string>
+    <string name="desc_about_copyright">Copyright Statement</string>
+
+    <!-- Descriptions : Home - Sibling Check -->
+    <string name="desc_home_sibling_check_instructions">
+        Please note that verification of sibling relationship is only required for recurrent expenses (e.g. monthly school fees), as well as one-off costs above $500.
+        &lt;p&gt;Enter NRIC/FIN of Child 1 and Child 2 to show the AI that two children are siblings.</string>
+    <string name="desc_home_update_profile">If you prefer electronic statements or letters, you may opt-in to OneInbox @ www.oneinbox.gov.sg.
+        &lt;p&gt;For data confidentiality, all hardcopy letters will be sent to your official address as maintained with the Immigration and Checkpoints Authority (ICA).</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TITLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Titles : Home -->
+    <string name="title_activity_home_about">About</string>
+    <string name="title_activity_home_faq">FAQ</string>
+    <string name="title_activity_home_feedback">Feedback</string>
+    <string name="title_activity_home_sibling_check">Sibling Check</string>
+    <string name="title_activity_update_profile">Update Profile</string>
+    <string name="title_activity_eligibility_check">Eligibility Check</string>
+    <string name="title_activity_ai_locator">AI Locator</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Titles : Home - Family View -->
+    <string name="title_activity_family_view">Family View</string>
+    <string name="title_activity_family_view_cash_gift_details">Cash Gift Details</string>
+    <string name="title_activity_family_view_cda_details">CDA Details</string>
+    <string name="title_activity_family_view_child_care_subsidies">Childcare Subsidies</string>
+    <string name="title_activity_family_view_child_care_sub_total">Total Childcare Subsidies</string>
+
+    <!-- Titles : Enrolment -->
+    <string name="title_activity_enrolment_main">New Application</string>
+    <string name="title_activity_enrolment_status">Enrolment Status</string>
+    <string name="title_activity_enrolment_sub_add_child">Registration</string>
+    <string name="title_activity_enrolment_sub_mother_dec">Details of Children</string>
+
+    <!-- Titles : Services -->
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_services_acknowledgement">Submit Acknowledgement</string>
+    <string name="title_activity_services_status">Application Status</string>
+    <string name="title_activity_services_change_nah">Nominated Account Holder</string>
+    <string name="title_activity_services_change_nan">Nominated Account</string>
+    <string name="title_activity_services_change_cdat">CDA Trustee</string>
+    <string name="title_activity_services_change_cdab">CDA Bank</string>
+    <string name="title_activity_services_cda_psea">Transfer CDA to PSEA</string>
+    <string name="title_activity_services_change_bo">Change Birth Order</string>
+    <string name="title_activity_services_cdab_tc">CDA Bank\'s T&amp;C</string>
+    <string name="title_activity_services_open_cda">Opening of CDA</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PROGRESS MESSAGES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Progress Dialog : Common -->
+    <string name="progress_common_load_child_list">Loading child list…</string>
+    <string name="progress_common_fetching_master_data">Fetching basic data…</string>
+    <string name="progress_common_fetching_accessible_services">Fetching accessible services…</string>
+    <string name="progress_common_fetching_user_roles">Fetching user roles…</string>
+    <string name="progress_common_fetching_banks">Fetching bank data…</string>
+
+    <!-- Progress Dialog : Enrolment -->
+    <string name="progress_enrolment_load_status">Loading enrolment status data…</string>
+    <string name="progress_enrolment_insert_application">Inserting enrolment data…</string>
+
+    <!-- Progress Dialog : Home -->
+    <string name="progress_home_sibling_check">Checking the siblinghood...</string>
+    <string name="progress_home_get_user_profile">Fetching user profile...</string>
+    <string name="progress_home_set_user_profile">Updating user profile...</string>
+
+    <!-- Progress Dialog : Home - Family View -->
+    <string name="progress_family_view_load_cash_gift_details">Loading cash gift details…</string>
+    <string name="progress_family_view_load_child_dev_acc_details">Loading child development account details…</string>
+
+    <!-- Progress Dialog : eService -->
+    <string name="progress_service_load_status">Loading application status data…</string>
+    <string name="progress_service_change_nah_updating">Updating Nominated Account Holder…</string>
+    <string name="progress_service_change_nan_updating">Updating Nominated Account Number…</string>
+    <string name="progress_service_change_cdat_updating">Updating CDA Trustee…</string>
+    <string name="progress_service_psea_updating">Updating Transfer CDA to PSEA…</string>
+    <string name="progress_service_cdab_tc_updating">Updating CDA Bank TC…</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ERROR MESSAGES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Error Message Dialog : Common -->
+    <string name="error_common_form_not_properly_completed">Form is not completed successfully</string>
+    <string name="error_common_invalid_nric">NRIC is invalid.</string>
+    <string name="error_common_invalid_postalcode">Postal code is invalid</string>
+    <string name="error_common_invalid_nric_prefix_for_citizen">For Citizens NRIC should prefix S or T.</string>
+    <string name="error_common_invalid_mobile_number">Mobile number should prefix 8 or 9.</string>
+    <string name="error_common_do_you_want_to_delete">Are you sure that you want to delete ?</string>
+    <string name="error_common_application_error">Form is not submitted due to application error.</string>
+
+    <!-- Error Message Dialog : Home -->
+    <string name="error_common_not_allowed_to_login">Invalid SingPass login.</string>
+    <string name="error_common_not_allowed_family_view">You are not allowed to access Family View</string>
+    <string name="error_common_not_allowed_update_profile">You are not allowed to access User Profile</string>
+    <string name="error_common_not_allowed_service_status">You are not allowed to access Service Status</string>
+    <string name="error_common_not_allowed_service">You do not have any accessible Services</string>
+
+    <!-- Error Message Dialog : Enrolment -->
+    <string name="error_enrolment_allowed_only_one_registration">One application should have only one registration type. Since you have already inserted %1$s child data, you have to clear it first.</string>
+    <string name="error_enrolment_required_atleast_one_registration">One application should have at least one child registration data.</string>
+    <string name="error_enrolment_select_one_option">Please select at least one option</string>
+    <string name="error_enrolment_estimated_delivery_back_dated">EDD must be not be more than 2 weeks prior to current date</string>
+    <string name="error_enrolment_estimated_delivery_future_dated">EDD must not be more than 8 weeks from current date.</string>
+    <string name="error_enrolment_attach_marriage_certificate">Please attach marriage certificate.</string>
+    <string name="error_enrolment_you_should_be_married">Parents of the child should be married. Otherwise you are not allowed to submit the application form.</string>
+    <string name="error_enrolment_you_should_be_married_proceed">Parents of the child should be married. Otherwise you are not allowed to submit the application form. Click Cancel to quit or OK to proceed.</string>
+
+    <!-- Error Message Dialog : Family View -->
+    <string name="error_family_view_select_child">Please select a child to view child statement</string>
+
+    <!-- Error Message Dialog : eService -->
+    <string name="error_services_select_child">Please select at least one child</string>
+    <string name="error_services_no_accessible_services">You don\'t have any accessible services</string>
+    <string name="error_services_no_child_data">No child data</string>
+
+    <!-- Error Message Dialog : eService - NAH -->
+    <string name="error_services_same_nah">NAH is the same as current NAH for child/children %1$s</string>
+
+    <!-- Error Message Dialog : eService - NAN -->
+    <string name="error_services_same_nan">Nominated account number is the same as current account number for child/children %1$s</string>
+
+    <!-- Error Message Dialog : eService - CDAT -->
+    <string name="error_services_same_cdab">CDA Bank is the same as current CDA Bank for child/children %1$s</string>
+
+    <!-- Error Message Dialog : eService - CDAT -->
+    <string name="error_services_same_cdat">Trustee is the same as current Trustee for child/children %1$s</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ALERT MESSAGES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- Alert : Common -->
+    <string name="alert_do_you_want_to_cancel">Are you sure you want to cancel</string>
+    <string name="alert_device_offline">Device is offline</string>
+    <string name="alert_server_connection_issue">Server connection issue</string>
+    <string name="alert_you_do_not_have_access">You don\'t have access</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TOAST MESSAGES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <string name="toast_loading_data">Loading...</string>
+    <string name="toast_no_more_data">No More !</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ INFO MESSAGES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <string name="info_two_children_are_siblings">Child 1 &lt;NRIC/BC&gt; and Child 2 &lt;NRIC/BC&gt; are siblings.</string>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GET ERROR IF DELETED ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <string name="title_activity_sibling_check">Sibling Check</string>
+
+
+</resources>

@@ -1,0 +1,96 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.gov.msf.bbss.view" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/mother_dec_data_entry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/screen_title_bar"
+            layout="@layout/action_bar_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/screen_instructions"
+            layout="@layout/section_header_row_and_instruction_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/edit_child_name"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/date_of_birth"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/birth_certificate_no"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/child_declaration_a"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/child_declaration_b"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/child_declaration_c"
+            layout="@layout/show_label_spinner_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/child_declaration_d"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/child_declaration_e"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <include
+            android:id="@+id/remarks"
+            layout="@layout/show_label_edittext_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Supporting Document Section -->
+        <include
+            android:id="@+id/supporting_docs"
+            layout="@layout/layout_supporting_doc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Button Section -->
+        <include
+            android:id="@+id/screen_buttons"
+            layout="@layout/clickable_3buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

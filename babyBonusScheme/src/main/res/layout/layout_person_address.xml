@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:context="sg.gov.msf.bbss.view">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/screen_instructions"
+                layout="@layout/screen_instructions_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Section Title -->
+
+            <include
+                android:id="@+id/section_address"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_instructions" />
+
+            <!-- Local Address Section -->
+
+            <include
+                android:id="@+id/edit_local_postal_code"
+                layout="@layout/show_label_edittext_with_button_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_address" />
+
+            <include
+                android:id="@+id/edit_local_unit_no"
+                layout="@layout/show_label_two_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_local_postal_code" />
+
+            <include
+                android:id="@+id/edit_local_block_no"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_local_unit_no" />
+
+            <include
+                android:id="@+id/edit_local_street_name"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_local_block_no" />
+
+            <include
+                android:id="@+id/edit_local_building_name"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_local_street_name" />
+
+            <!-- Foreign Address Section -->
+
+            <include
+                android:id="@+id/edit_foreign_address1"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_local_building_name" />
+
+            <include
+                android:id="@+id/edit_foreign_address2"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_foreign_address1" />
+
+            <!-- Buttons -->
+
+            <include
+                android:id="@+id/screen_1buttons"
+                layout="@layout/clickable_1buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_foreign_address2" />
+
+            <include
+                android:id="@+id/screen_2buttons"
+                layout="@layout/clickable_2buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_1buttons" />
+
+            <include
+                android:id="@+id/screen_3buttons"
+                layout="@layout/clickable_3buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_2buttons" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

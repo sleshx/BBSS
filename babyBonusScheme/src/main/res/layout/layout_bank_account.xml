@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/section_new_account_detail"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screen_instructions" />
+
+    <include
+        android:id="@+id/screen_descriptions"
+        layout="@layout/screen_descriptions_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_new_account_detail" />
+
+    <!-- Bank Account-->
+
+    <include
+        android:id="@+id/edit_account_bank"
+        layout="@layout/show_label_spinner_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screen_descriptions" />
+
+    <include
+        android:id="@+id/edit_account_bank_branch"
+        layout="@layout/show_label_edittext_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_account_bank" />
+
+    <include
+        android:id="@+id/edit_account_no"
+        layout="@layout/show_label_edittext_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_account_bank_branch" />
+
+</RelativeLayout>

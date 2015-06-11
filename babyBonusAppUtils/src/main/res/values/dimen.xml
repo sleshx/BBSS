@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Padding / Margin -->
+    <dimen name="dimen_02">2dp</dimen>
+    <dimen name="dimen_05">5dp</dimen>
+    <dimen name="dimen_07">7dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+
+    <!-- Font Size -->
+    <dimen name="app_general_font_size">16sp</dimen>
+    <dimen name="app_grid_font_size">15sp</dimen>
+    <dimen name="app_list_font_size">16sp</dimen>
+    <dimen name="app_list_button_font_size">13sp</dimen>
+    <dimen name="app_desc_font_size">14sp</dimen>
+    <dimen name="app_page_no_font_size">13sp</dimen>
+
+</resources>

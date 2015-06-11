@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+		
+	<item android:state_checked="false" 
+		android:drawable="@drawable/ic_off_radio_check" />
+		
+	<item android:state_checked="true" 
+		android:drawable="@drawable/ic_radio_on" />
+</selector><!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/drawable/single_radio_choice.xml -->

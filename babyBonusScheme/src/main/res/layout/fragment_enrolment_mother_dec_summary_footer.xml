@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Button to Add Declaration -->
+
+    <include
+        android:id="@+id/screen_1buttons"
+        layout="@layout/clickable_1buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Buttons -->
+
+    <include
+        android:id="@+id/screen_3buttons"
+        layout="@layout/clickable_3buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screen_1buttons" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/check_popup_shape"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvPopup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="@string/title_activity_bbss_action_bar"/>
+    <Button
+        android:id="@+id/btnPopup"
+        style="@style/ButtonTextStyle"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tvPopup"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_gradient"
+        android:text="@string/btn_ok"/>
+
+</RelativeLayout>

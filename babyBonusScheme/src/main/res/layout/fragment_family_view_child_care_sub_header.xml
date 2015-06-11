@@ -1,0 +1,71 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="sg.gov.msf.bbss.view.home.familyviewold.H02FamilyViewCashGiftDetailsFragment">
+
+    <!-- Instructions -->
+
+    <include
+        android:id="@+id/screen_instructions"
+        layout="@layout/screen_instructions_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Child Particulars-->
+
+    <include
+        android:id="@+id/section_child_particulars"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/screen_instructions" />
+
+    <include
+        android:id="@+id/family_view_child_birth_cert"
+        layout="@layout/show_label_textview_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/section_child_particulars" />
+
+    <include
+        android:id="@+id/family_view_child_name"
+        layout="@layout/show_label_textview_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_view_child_birth_cert" />
+
+    <include
+        android:id="@+id/family_view_child_birthday"
+        layout="@layout/show_label_textview_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_view_child_name" />
+
+    <!-- Total -->
+    <include
+        android:id="@+id/family_view_ccs_total_header"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_view_child_birthday" />
+
+    <include
+        android:id="@+id/family_view_ccs_total"
+        layout="@layout/show_label_textview_with_dollar_no_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_view_ccs_total_header" />
+
+
+    <!-- List View Header -->
+    <include
+        android:id="@+id/family_view_ccs_list_view_header"
+        layout="@layout/section_header_row"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/family_view_ccs_total" />
+
+</RelativeLayout>

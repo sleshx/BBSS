@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:orientation="vertical"
+    tools:context="sg.gov.msf.bbss.view">
+
+    <include
+        android:id="@+id/screen_title_bar"
+        layout="@layout/action_bar_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Instructions -->
+
+            <include
+                android:id="@+id/screen_instructions"
+                layout="@layout/screen_instructions_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- Child Particulars-->
+
+            <include
+                android:id="@+id/section_child_particulars"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/screen_instructions" />
+
+            <include
+                android:id="@+id/family_view_child_birth_cert"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_child_particulars" />
+
+            <include
+                android:id="@+id/family_view_child_name"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/family_view_child_birth_cert" />
+
+            <include
+                android:id="@+id/family_view_child_birthday"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/family_view_child_name" />
+
+            <!-- Child Dev Account Trustee Particulars-->
+
+            <include
+                android:id="@+id/section_cdat_particulars"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/family_view_child_birthday" />
+
+            <include
+                android:id="@+id/family_view_cdat_id"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_cdat_particulars" />
+
+            <include
+                android:id="@+id/family_view_cdat_name"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/family_view_cdat_id" />
+
+            <include
+                android:id="@+id/family_view_cdat_birthday"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/family_view_cdat_name" />
+
+            <!-- Child Dev Account Particulars -->
+
+            <include
+                android:id="@+id/section_cda_details"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/family_view_cdat_birthday" />
+
+            <include
+                android:id="@+id/cda_bank_name"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_cda_details" />
+
+            <include
+                android:id="@+id/cda_bank_acc_no"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_bank_name" />
+
+            <include
+                android:id="@+id/cda_expiry_date"
+                layout="@layout/show_label_textview_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_bank_acc_no" />
+
+            <include
+                android:id="@+id/cda_cap"
+                layout="@layout/show_label_textview_with_dollar_with_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_expiry_date" />
+
+            <include
+                android:id="@+id/cda_remaining_cap"
+                layout="@layout/show_label_textview_with_dollar_with_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_cap" />
+
+            <include
+                android:id="@+id/cda_total_deposit"
+                layout="@layout/show_label_textview_with_dollar_with_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_remaining_cap" />
+
+            <include
+                android:id="@+id/cda_total_govt_matching"
+                layout="@layout/show_label_textview_with_dollar_with_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_total_deposit" />
+
+            <!-- Child Dev Account Transaction History -->
+
+            <include
+                android:id="@+id/section_cda_matching_history"
+                layout="@layout/section_header_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_total_govt_matching" />
+
+            <include
+                android:id="@+id/cda_matching_from_date"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/section_cda_matching_history" />
+
+            <include
+                android:id="@+id/cda_matching_to_date"
+                layout="@layout/show_label_edittext_row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_matching_from_date" />
+
+            <!-- Child Dev Account Buttons -->
+
+            <include
+                android:id="@+id/screen_buttons"
+                layout="@layout/clickable_1buttons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cda_matching_to_date" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

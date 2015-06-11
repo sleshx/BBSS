@@ -1,0 +1,41 @@
+<sg.gov.msf.bbss.apputils.ui.component.CheckableRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dimen_10">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingRight="@dimen/dimen_20"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvListRowHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/dimen_10"
+            android:layout_weight="1"
+            android:text="@string/text_app_dummy_hyphen"
+            android:textSize="@dimen/app_general_font_size" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkableChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/dimen_10"
+        android:gravity="center_vertical"
+        android:focusable="false"
+        android:clickable="false"
+        android:button="@drawable/multiple_check_choice"/>
+
+</sg.gov.msf.bbss.apputils.ui.component.CheckableRelativeLayout>
+<!-- From: file:/D:/Workspace/MSF_BBSS_Android/NCS.CAOMCC-GIT/BabyBonusScheme/babyBonusAppUtils/src/main/res/layout/listitem_1rows_multi_choice.xml -->
